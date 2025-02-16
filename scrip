@@ -1,0 +1,9 @@
+#!/bin/bash
+while find -type f -name "config.json"; do
+cp -r ./project/dev/* ./project/staging
+cp -r ./project/staging/* ./project/prod
+break
+done
+
+# mkdir -p ./project/prod/data ./project/staging/data
+# touch ./project/prod/config.json ./project/staging/config.json

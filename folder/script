@@ -1,0 +1,4 @@
+#!/bin/bash
+nom="abdessamad"
+age=35
+echo"Nom:$nom,Age:$age"

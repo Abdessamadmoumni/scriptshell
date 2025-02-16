@@ -1,0 +1,10 @@
+#!/bin/bash
+
+#name="abdessamad"
+#echo "salam $name"
+file="abdo"
+if sudo find / -type f -name "$file" > /dev/null 2>&1; then  
+echo " the file $file exist "
+else
+echo " not exist "
+fi

@@ -1,0 +1,11 @@
+#!/bin/bash
+
+read -p "entrer un nombre: " nbr
+
+if [ $nbr -gt 10 ]; then
+    echo "le nombre est sup a 10"
+elif [ $nbr -eq 10 ]; then
+    echo "le nombre est egal a 10"
+else
+    echo "le nombre est inferieur a 10"
+fi

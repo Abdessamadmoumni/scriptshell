@@ -1,0 +1,9 @@
+#!/bin/bash
+read -p "give a number: " nbr
+if [ $nbr -gt 5 ]; then
+    echo " nbr greater than 5 "
+    elif [ $nbr -lt 5 ]; then
+         echo " nbr less than 5 "
+    else
+         echo "nbr equal 5"
+fi

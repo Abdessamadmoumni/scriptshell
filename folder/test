@@ -1,0 +1,3 @@
+#!/bin/bash
+read -p"entrer nom:"user_name
+echo"Bonjour,$user_name!"
